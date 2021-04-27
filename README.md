@@ -1,4 +1,4 @@
-# ⚜️ROYALUSERBOT
+# ⚜️ROYAL USERBOT
 A simple Telegram userbot based on Telethon .
 
 ![RoyalUserbot logo](https://telegra.ph/file/6ebb5d405083aa50a64f0.jpg)
