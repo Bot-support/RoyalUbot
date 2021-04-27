@@ -25,7 +25,7 @@
     "ALIVE_NAME": {
       "description": "Fill your Full name. 
       "value": "",
-      "required": true
+      "required": false
     },
     "ALIVE_MSG": {
       "description": "Set Custom Alive Message When entering .hell Command.",
@@ -35,7 +35,7 @@
     "ALIVE_PIC": {
       "description": "Put here any telegraph media link for alive pic in .alive command.",
       "value": "",
-      "required": true
+      "required": false
     },
     "PMPERMIT_PIC": {
       "description": "put here any telegraph media link for custom pmpermit pic.",
