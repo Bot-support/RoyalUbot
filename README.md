@@ -1,7 +1,7 @@
 # ⚜️ROYALUSERBOT
 A simple Telegram userbot based on Telethon .
 
-[RoyalUserbot logo](https://telegra.ph/file/57520dcef65f3b0d7e417.jpg)
+[![RoyalUserbot logo](https://telegra.ph/file/57520dcef65f3b0d7e417.jpg)
 
 
 ### Heroku Deploy
