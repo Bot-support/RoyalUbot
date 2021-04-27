@@ -1,13 +1,13 @@
 {
-  "name": "Catuserbot",
-  "description": "A simple Telegram userbot based on Telethon . Maintained by Sandeep ",
-  "logo": "https://telegra.ph/file/3d60313110c58684b31ea.jpg",
+  "name": "Royaluserbot",
+  "description": "A simple Telegram userbot based on Telethon . Maintained by bot-support ",
+  "logo": "https://telegra.ph/file/57520dcef65f3b0d7e417.jpg",
   "keywords": [
     "plugin",
     "modular",
     "productivity"
   ],
-  "repository": "https://github.com/sandy1709/catuserbot/",
+  "repository": "https://github.com/bot-support/RoyalUbot/",
   "website": "#TODO",
   "success_url": "#TODO",
   "env": {
@@ -61,8 +61,8 @@
       "required": false
     },
     "UPSTREAM_REPO": {
-      "description": "Use either goodcat or badcat .if you need custom deploy then type your git repo link",
-      "value": "goodcat",
+      "description": " do not change it ",
+      "value": "Royalubot",
       "required": false
     }
   },
