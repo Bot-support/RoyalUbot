@@ -3,7 +3,7 @@ from platform import python_version
 
 from telethon import version
 
-from . import ALIVE_NAME, StartTime, Royalversion, get_readable_time, mention, reply_id
+from . import ALIVE_NAME, Royalversion, StartTime, get_readable_time, mention, reply_id
 
 DEFAULTUSER = ALIVE_NAME or "Royalut"
 CAT_IMG = Config.ALIVE_PIC or "https://telegra.ph/file/57520dcef65f3b0d7e417.jpg"
