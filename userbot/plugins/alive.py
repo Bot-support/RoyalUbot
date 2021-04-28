@@ -3,11 +3,11 @@ from platform import python_version
 
 from telethon import version
 
-from . import ALIVE_NAME, StartTime, catversion, get_readable_time, mention, reply_id
+from . import ALIVE_NAME, StartTime, Royalversion, get_readable_time, mention, reply_id
 
-DEFAULTUSER = ALIVE_NAME or "cat"
-CAT_IMG = Config.ALIVE_PIC
-CUSTOM_ALIVE_TEXT = Config.CUSTOM_ALIVE_TEXT or "✮ MY BOT IS RUNNING SUCCESSFULLY ✮"
+DEFAULTUSER = ALIVE_NAME or "Royalut"
+CAT_IMG = Config.ALIVE_PIC or "https://telegra.ph/file/57520dcef65f3b0d7e417.jpg"
+CUSTOM_ALIVE_TEXT = Config.CUSTOM_ALIVE_TEXT or "⚜️ MY BOT IS RUNNING SUCCESSFULLY ⚜️"
 EMOJI = Config.CUSTOM_ALIVE_EMOJI or "  ✥ "
 
 
@@ -37,7 +37,7 @@ async def amireallyalive(alive):
             f"**{CUSTOM_ALIVE_TEXT}**\n\n"
             f"**{EMOJI} Database :** `{check_sgnirts}`\n"
             f"**{EMOJI} Telethon Version :** `{version.__version__}\n`"
-            f"**{EMOJI} Catuserbot Version :** `{catversion}`\n"
+            f"**{EMOJI} Royaluserbot Version :** `{Royalversion}`\n"
             f"**{EMOJI} Python Version :** `{python_version()}\n`"
             f"**{EMOJI} Uptime :** `{uptime}\n`"
             f"**{EMOJI} Master:** {mention}\n",
@@ -51,9 +51,9 @@ async def amireallyalive(alive):
         return
     tgbotusername = Config.TG_BOT_USERNAME
     reply_to_id = await reply_id(alive)
-    cat_caption = f"**Catuserbot is Up and Running**\n"
+    cat_caption = f"**Royaluserbot is Up and Running**\n"
     cat_caption += f"**  -Telethon version :** `{version.__version__}\n`"
-    cat_caption += f"**  -Catuserbot Version :** `{catversion}`\n"
+    cat_caption += f"**  -Royaluserbot Version :** `{Royalversion}`\n"
     cat_caption += f"**  -Python Version :** `{python_version()}\n`"
     cat_caption += f"**  -Master:** {mention}\n"
     results = await bot.inline_query(tgbotusername, cat_caption)  # pylint:disable=E0602
@@ -67,8 +67,8 @@ async def amireallyalive(alive):
 # the "you can't use this for anything - public or private,
 # unless you know the two prime factors to the number below" license
 # 543935563961418342898620676239017231876605452284544942043082635399903451854594062955
-# വിവരണം അടിച്ചുമാറ്റിക്കൊണ്ട് പോകുന്നവർ
-# ക്രെഡിറ്റ് വെച്ചാൽ സന്തോഷമേ ഉള്ളു..!
+# Those who carry on with the description
+# Credit is happy..!
 # uniborg
 
 
